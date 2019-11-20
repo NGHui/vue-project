@@ -5,6 +5,7 @@ import Router from 'vue-router'
 import Content from '../components/Content'
 import Main from '../components/main'
 import Hui from "../components/Hui";
+import Hello from '../components/Hello'
 // 安装路由
 Vue.use(Router);
 // 配置路由
@@ -28,11 +29,16 @@ export default new Router({
     },
     {
       //路由路径
-      path:"/hui",
+      path: "/hui",
       //路由名称
-      name:"Hui",
+      name: "Hui",
       //跳转组件
-      component:Hui
+      component: Hui
+    }
+    , {
+      path: '/hello',
+      name: 'hello',
+      component:Hello
     }
   ]
 });

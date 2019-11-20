@@ -7,6 +7,7 @@
     <router-link to="/main">首页</router-link>
     <router-link to="/content">内容</router-link>
     <router-link to="/hui">Hui</router-link>
+    <router-link to="/hello">Hello</router-link>
     <router-view></router-view>
   </div>
 </template>
@@ -19,11 +20,11 @@
 
 <style>
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    /*font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+    margin-top: 60px;*/
   }
 </style>
